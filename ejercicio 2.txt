@@ -1,0 +1,17 @@
+Proceso ejercicio_2
+	definir n,i,vector Como Entero;
+	escribir "ingrese un numero:";
+	leer n;
+
+
+	i<-1;
+	si (i<n) Entonces
+		escribir "desde el numero que indico hasta 1: 1" ;
+
+		Mientras (i<n) Hacer 
+		i=i+1;
+		
+		escribir "desde el numero que indico hasta 1: " i;
+	Fin Mientras
+FinSi
+FinProceso
